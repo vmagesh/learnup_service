@@ -1,0 +1,18 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "192.168.119.96",
+        "port": "3306",
+        "database": "learnup_cma",
+        "username": "magesh",
+        "password": "magesh123"
+      },
+      "options": {}
+    }
+  }
+}
+

@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "courses",
+  "info": {
+    "name": "course",
+    "description": "This Content-Type will have the list of courses"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "CourseName": {
+      "type": "string"
+    },
+    "CourseDescription": {
+      "type": "string"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "CreatedDate": {
+      "type": "date"
+    },
+    "UpdatedDate": {
+      "type": "date"
+    }
+  }
+}
